@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #6a6aa7;
+}
+#title {
+  color: white;
+  margin-bottom: 2px;
+}
+#description {
+  color: white;
+  margin-bottom: 30px;
+  font-style: italic;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#survey-form {
+  background-color: #252544;
+  padding: 50px 40px;
+  width: 600px;
+}
+
+.form-group input {
+  width: 100%;
+  border-radius: 3px;
+  padding: 5px 10px;
+  border: none;
+  transition: 0.3s;
+  width: 100%;
+  margin: 5px 0 10px 0;
+  font-size: 1rem;
+}
+input:focus {
+  outline: 2px solid lightblue;
+}
+
+.form-group label {
+  color: white;
+  font-size: 1.3rem;
+}
+
+.form-group p {
+  color: white;
+}
+#dropdown {
+  width: 100%;
+  padding: 5px 10px;
+  border-radius: 3px;
+  border: none;
+  margin: 5px 0 10px 0;
+  font-size: 1rem;
+}
+
+#dropdown:focus {
+  outline: 2px solid lightblue;
+}
+.form-group-check {
+  display: flex;
+  flex-direction: column;
+}
+.form-group-check p {
+  color: white;
+  margin-bottom: 5px;
+}
+
+.form-group-check label {
+  color: white;
+}
+
+.form-group textarea {
+  width: 100%;
+  resize: vertical;
+}
+
+button {
+  width: 100%;
+  margin: 10px 0;
+  background-color: rgb(39, 208, 39);
+  color: white;
+  padding: 5px;
+  border: none;
+  font-size: 1.2rem;
+}
