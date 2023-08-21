@@ -1,0 +1,1 @@
+Compilation of the Projects freeCodeCamp certificate solution 
